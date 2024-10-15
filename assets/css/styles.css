@@ -1,0 +1,84 @@
+*{
+    background-color: rgb(194, 191, 191);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    position: relative;
+    max-width: 1200px;
+    height: 600px;
+    margin: auto;
+    background: url('background.jpg') no-repeat center center;
+    background-size: cover;
+    background-color: grey;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+.box {
+    position: absolute;
+    width: 30%; 
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); 
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+}
+
+.box p {
+    padding: 10px;
+    text-align: center;
+    font-size: 10px;
+}
+
+/* Positioning the boxes */
+.top {
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bottom {
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.left {
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+.right {
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+.copyright {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 14px;
+    color: black;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
